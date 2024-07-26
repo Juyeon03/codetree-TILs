@@ -5,9 +5,9 @@ public class Main
     public static void main(String[] args) 
     {
         Scanner s=new Scanner(System.in);
-        int array[]=new int[9];
+        int array[]=new int[100];
         
-        for(int i=0;i<9;i++)
+        for(int i=0;i<100;i++)
         {
             array[i]=s.nextInt();
 
