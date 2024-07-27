@@ -28,7 +28,7 @@ public class Main
                 add++;
             }
 
-            if(add==2)
+            if(add>=2)
             {
                 break;
             }
