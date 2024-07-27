@@ -9,7 +9,7 @@ public class Main
         int arr[]=new int[100];
         int a=0;
         arr[0]=1;
-        arr[1]=5;
+        arr[1]=s.nextInt();
 
         for(int i=2;i<100;i++)
         {
