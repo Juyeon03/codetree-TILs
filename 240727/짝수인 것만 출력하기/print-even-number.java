@@ -26,7 +26,7 @@ public class Main
         //여기에 등호가 있으면 안됨!!
         for(int i=0;i<j;i++)
         {
-            System.out.print(b[i]);
+            System.out.print(b[i]+" ");
         }
     }
 }
