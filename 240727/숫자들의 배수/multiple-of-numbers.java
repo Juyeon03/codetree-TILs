@@ -16,12 +16,13 @@ public class Main
             arr[i]=arr[0]*(i+1);
         }
 
+        int add=0;
+        //지금까지 이걸 반복문 안에 넣어서 계속 초기화 되버림!!
+
         //이걸 한번 더 써야됨!!
         for(int i=0;i<10;i++)
         {
             System.out.print(arr[i]+" ");
-
-            int add=0;
 
             if(arr[i]%5==0)
             {
@@ -34,7 +35,6 @@ public class Main
             }
         }
         
-    
     }
     
 }
