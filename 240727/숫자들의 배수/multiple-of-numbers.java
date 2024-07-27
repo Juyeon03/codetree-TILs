@@ -13,11 +13,10 @@ public class Main
         
         //얜 앞에 빼서 쓰기!!
         if(arr[0]==5&arr[0]==10)
-            {
-                System.out.print(arr[0]+" ");
-                System.out.print(arr[1]);
-                //break 문은 반복문이나 switch 문 안에서만 가능!!
-            }
+        {
+            System.out.print(arr[1]);
+            //break 문은 반복문이나 switch 문 안에서만 가능!!
+        }
 
         else
         {
